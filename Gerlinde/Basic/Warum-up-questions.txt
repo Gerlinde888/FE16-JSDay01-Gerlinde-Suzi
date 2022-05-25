@@ -1,0 +1,112 @@
+Basic
+Warm-up questions
+
+Discuss with your partner the following questions. Try to be as comprehensive as possible, while providing your opinions for the following questions:
+
+1. Where does Javascript  fit in today's web development world?
+
+    There are many diverse examples of JavaScript being utilized for a wide array of purposes. 
+
+    JavaScript is at the forefront of the programming realm. Out of over 1.6 billion websites on the Internet, JavaScript is used in 95% of them.
+
+    Common examples of JavaScript uses and applications include:
+
+    Presentations
+    Web Development
+    Server Applications
+    Web Applications
+    Games
+    Mobile Applications 
+    It is important that you learn how to utilize such a language for the benefit of your own business. Continue reading to learn more about when and where to use JavaScript.
+
+2. In which industries is it implemented ?
+
+    Industry 4.0 is anticipated to revolutionize the manufacturing sector through a digital transformation. With this transformation, many benefits
+
+
+3. What is the main role of JavaScript in the Front-End?
+
+    It gives the site additional functionality that isn't otherwise achievable with HTML and CSS alone. JavaScript allows webpages to respond to user activity and dynamically update themselves, and all without requiring a page reload to change its appearance.
+
+4. Is JavaScript a programming or scripting language?
+
+
+    JavaScript is an easy to learn and also powerful scripting language, widely used for controlling web page behavior. Contrary to popular misconception, JavaScript is not "Interpreted Java". In a nutshell, JavaScript is a dynamic scripting language supporting prototype based object construction.
+
+    JavaScript was not developed at Sun Microsystems, the home of Java. JavaScript was developed at Netscape. It was originally called LiveScript, but that name wasn't confusing enough. The -Script suffix suggests that it is not a real programming language, that a scripting language is less than a programming language.
+
+
+5. Which tags do you use to enclose JavaScript code?
+
+    <script> tag
+
+
+6. How can you include JavaScript code from another source into your documents? And where do you place it in the HTML?
+
+    You can add JavaScript code in an HTML document by employing the dedicated HTML tag <script> that wraps around JavaScript code. The <script> tag can be placed in the <head> section of your HTML or in the <body> section, depending on when you want the JavaScript to load.
+
+
+7. How can you create a comment in JavaScript? On both a single line and multiple lines.
+
+
+Single line comments start with //.
+Multi-line comments start with /* and end with */.
+
+
+8. What is the JavaScript string concatenation operator?
+
+
+    Concatenation operators join multiple strings into a single string. There are two concatenation operators, + and & . Both carry out the basic concatenation operation, as the following example shows.
+
+
+9. What characters are used to define a JavaScript variable name?
+
+
+    Here are QUICK-rules JavaScript has for naming variables:
+        Variable names cannot contain spaces.
+        Variable names must begin with a letter, an underscore (_) or a dollar sign ($).
+        Variable names can only contain letters, numbers, underscores, or dollar signs.
+        Variable names are case-sensitive.
+        Rules for Naming Variables
+
+    JavaScript has only a few rules for variable names:
+
+    The first character must be a letter or an underscore (_). You can't use a number as the first character.
+
+    The rest of the variable name can include any letter, any number, or the underscore. You can't use any other characters, including spaces, symbols, and punctuation marks.
+
+    As with the rest of JavaScript, variable names are case sensitive. That is, a variable named Interest_Rate is treated as an entirely different variable than one named interest_rate.
+
+    There's no limit to the length of the variable name.
+
+    You can't use one of JavaScript's reserved words as a variable name. All programming languages have a supply of words that are used internally by the language and that can't be used for variable names because doing so would cause confusion (or worse). Note, too, that JavaScript also has many keywords that should be avoided as well.
+
+    For a list of JavaScript reserved words and keywords, see Appendix B, "JavaScript Reserved Words and Keywords."
+
+    Ideas for Good Variable Names
+    The process of declaring a variable doesn't take much thought, but that doesn't mean you should just type in any old variable name that comes to mind. Take a few extra seconds to come up with a good name by following these guidelines:
+
+    Make your names descriptive. Sure, using names that are just a few characters long makes them easier to type, but I guarantee you that you won't remember what the variables represent when you look at the script down the road. If you want a variable to represent a user's name, use User_Name or UserName instead of un or usrnm.
+
+
+
+10. Which data types provides JavaScript?
+
+            JavaScript Data Types
+            Data Types	Description	                                        Example
+            String	    represents textual data	                            'hello' , "hello world!" etc
+            Number	    an integer or a floating-point number               3 , 3.234 , 3e-2 etc.
+            BigInt	    an integer with arbitrary precision	                900719925124740999n , 1n etc.
+            Boolean	    Any of two values: true or false	                true and false
+            undefined	a data type whose variable is not initialized	    let a;
+            null	    denotes a null value	                            let a = null;
+            Symbol	    data type whose instances are unique and immutable	let value = Symbol('hello');
+            Object	    key-value pairs of collection of data	            let student = { };
+
+            Arrays are just regular objects
+            In Javascript, there are only 6 data types defined – the primitives (boolean, number, string, null, undefined) and object (the only reference type). Arrays do not belong to this list because they are objects as well.
+
+11. What is the difference between variable and array?
+
+        Arrays are just regular objects
+        In Javascript, there are only 6 data types defined – the primitives (boolean, number, string, null, undefined) and object (the only reference type). Arrays do not belong to this list because they are objects as well.
