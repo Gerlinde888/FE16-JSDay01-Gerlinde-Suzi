@@ -9,5 +9,14 @@ let number_array =
     [3, 5, 26, 3] 
 ];
 
-extr_number_array = [number_array[1][1], number_array[4][2], number_array[5][3], number_array[2][3], number_array[2][1]];
-console.log(extr_number_array);
+console.log(
+    number_array[1][1],
+    number_array[4][2],
+    number_array[5][3],
+    number_array[2][3],
+    number_array[2][1]
+  );
+
+
+// extr_number_array = [number_array[1][1], number_array[4][2], number_array[5][3], number_array[2][3], number_array[2][1]];
+// console.log(extr_number_array);
