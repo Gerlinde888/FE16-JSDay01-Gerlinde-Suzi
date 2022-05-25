@@ -106,7 +106,18 @@ Multi-line comments start with /* and end with */.
             Arrays are just regular objects
             In Javascript, there are only 6 data types defined – the primitives (boolean, number, string, null, undefined) and object (the only reference type). Arrays do not belong to this list because they are objects as well.
 
+
 11. What is the difference between variable and array?
 
         Arrays are just regular objects
         In Javascript, there are only 6 data types defined – the primitives (boolean, number, string, null, undefined) and object (the only reference type). Arrays do not belong to this list because they are objects as well.
+
+
+
+12. what-is-the-difference-between-document-write-and-console-log
+
+        The main difference is that document.write() inserts text into the document (the webpage in the browser window); console.log() does not. The user cannot see what is logging to the console as that is another interface, separate from the HTML/CSS environment.
+
+        document.write() is rather old school and hardly used anymore since it requires embedding in the actual page which is discouraged in this day and age. The aim is to maintain a separation of concerns, meaning no presentational elements or behaviors are to be embedded in the page, only HTML. You will likely learn all the newer techniques as you progress.
+
+        console.log() is a method of the JavaScript Console, a special object incuded in browsers for developers to use to debug and test their code in an interactive terminal. Only JS (ES) will work in the console, not HTML and not CSS.
