@@ -1,3 +1,4 @@
-// // console.log("Hi my name is Martin");
-
-// document.write("Hi my name is Matin");
+let cars = ["Tesla", "Audi", "Renault", "Volvo", "Mazda", "Fiat", "Ferari"];
+// cars.sort();
+// console.log(cars);
+console.log(cars.sort());
