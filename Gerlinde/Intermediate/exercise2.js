@@ -3,7 +3,7 @@ let array1 =["apple","banana","kiwi"];
 // array1.sort();
 // console.log(array1);
 console.log(array1.push("orange"));
-console.log(array1);
+console.log("orange should be added",array1);
 console.log(array1.splice(3,1));
 console.log(array1);
 
